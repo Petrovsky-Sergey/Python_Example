@@ -11,16 +11,28 @@ D_SCORE = 60
 score = int(input("Введите свои баллы: "))
 
 # Определить буквенный уровень
+# if score >= A_SCORE:
+#     print('Ваш уровень - A')
+# else:
+#     if score >= B_SCORE:
+#         print('Ваш уровень - B')
+#     else:
+#         if score >= C_SCORE:
+#             print('Ваш уровень - C')
+#         else:
+#             if score >= D_SCORE:
+#                 print('Ваш уровень - D')
+#             else:
+#                 print('Ваш уровень - F')
+
+
 if score >= A_SCORE:
     print('Ваш уровень - A')
+elif score >= B_SCORE:
+    print('Ваш уровень - B')
+elif score >= C_SCORE:
+    print('Ваш уровень - C')
+elif score >= D_SCORE:
+    print('Ваш уровень - D')
 else:
-    if score >= B_SCORE:
-        print('Ваш уровень - B')
-    else:
-        if score >= C_SCORE:
-            print('Ваш уровень - C')
-        else:
-            if score >= D_SCORE:
-                print('Ваш уровень - D')
-            else:
-                print('Ваш уровень - F')
+    print('Ваш уровень - F')
